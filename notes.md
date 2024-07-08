@@ -152,6 +152,7 @@ This sequence of commands sets up the backend environment, installs necessary de
 This sequence of commands sets up the backend environment by installing dependencies, configuring environment variables, and applying necessary database migrations. This prepares the backend application for development or testing by ensuring all dependencies are installed, the environment is configured, and the database schema is current.
 
 #docker-compose.yml
+
 This Docker Compose file defines and configures a multi-service application with three services: a FastAPI application (`llama-app-fastapi`), a PostgreSQL database (`db`), and a LocalStack instance (`localstack`). Let's break down each part of the file:
 
 ### Version
